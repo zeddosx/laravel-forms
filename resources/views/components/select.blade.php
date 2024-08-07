@@ -1,7 +1,7 @@
 @php
     /** @var \InvolveDigital\LaravelLivewireForms\Inputs\Select $field */
 
-    $id = $field->getId() ?: $form->getDefaultIdForInput();
+    $id = $field->getId() ?: $form->getDefaultIdForInput($field);
 @endphp
 
 @if($field->getShowLabel())

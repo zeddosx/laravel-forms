@@ -1,7 +1,5 @@
 @php
-    use Illuminate\Support\Str;
-
-    $id = $field->getId() ?: $form->getDefaultIdForInput();
+    $id = $field->getId() ?: $form->getDefaultIdForInput($field);
 
     $inputClass = $theme->inputs[$field->getThemeType()] ?? '';
 

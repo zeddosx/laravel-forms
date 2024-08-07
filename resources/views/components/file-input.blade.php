@@ -1,6 +1,6 @@
-@php use Illuminate\Support\Str;use Livewire\Features\SupportFileUploads\TemporaryUploadedFile; @endphp
+@php use Livewire\Features\SupportFileUploads\TemporaryUploadedFile; @endphp
 @php
-    $id = $field->getId() ?: $form->getDefaultIdForInput();
+    $id = $field->getId() ?: $form->getDefaultIdForInput($field);
 @endphp
 
 @if($field->getShowLabel())

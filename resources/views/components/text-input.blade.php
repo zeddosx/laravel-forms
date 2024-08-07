@@ -1,10 +1,10 @@
 @php
     /**
      * @var \InvolveDigital\LaravelLivewireForms\Inputs\TextInput $field
-     * @var \InvolveDigital\LaravelLivewireForms\Themes\UiKitTheme $theme
+     * @var \InvolveDigital\LaravelLivewireForms\Themes\BaseFormTheme $theme
      */
 
-    $id = $field->getId() ?: $form->getDefaultIdForInput();
+    $id = $field->getId() ?: $form->getDefaultIdForInput($field);
 @endphp
 
 @if($field->getShowLabel())
