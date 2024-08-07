@@ -1,4 +1,4 @@
-@php use App\Modules\Shared\Lib\Forms\Controls\LivewireComponent;use App\Modules\Shared\Lib\Forms\Inputs\BaseField; @endphp
+@php use InvolveDigital\LaravelLivewireForms\Controls\LivewireComponent;use InvolveDigital\LaravelLivewireForms\Inputs\BaseField; @endphp
 
 <{{$field->getType()}}
     {{ $field->getHtmlAttributes() }}

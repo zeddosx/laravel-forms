@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\Shared\Lib\Forms\Themes;
+namespace InvolveDigital\LaravelLivewireForms\Themes;
 
 class UiKitTheme extends BaseFormTheme
 {

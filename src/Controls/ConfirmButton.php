@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\Shared\Lib\Forms\Controls;
+namespace InvolveDigital\LaravelLivewireForms\Controls;
 
-use App\Modules\Shared\Lib\Forms\Traits\THasConfirmOptions;
+use InvolveDigital\LaravelLivewireForms\Traits\THasConfirmOptions;
 
 class ConfirmButton extends Button
 {

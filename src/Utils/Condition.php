@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\Shared\Lib\Forms\Utils;
+namespace InvolveDigital\LaravelLivewireForms\Utils;
 
 use JetBrains\PhpStorm\ArrayShape;
 

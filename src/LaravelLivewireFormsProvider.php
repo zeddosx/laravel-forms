@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace InvolveDigital\LaravelLivewireForms;
+
 use Illuminate\Support\ServiceProvider;
 
 class LaravelLivewireFormsProvider extends ServiceProvider

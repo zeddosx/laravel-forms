@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\Shared\Lib\Forms\Inputs;
+namespace InvolveDigital\LaravelLivewireForms\Inputs;
 
 use Illuminate\Support\Collection;
 

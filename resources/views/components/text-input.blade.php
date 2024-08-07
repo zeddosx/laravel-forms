@@ -1,7 +1,7 @@
 @php
     /**
-     * @var \App\Modules\Shared\Lib\Forms\Inputs\TextInput $field
-     * @var \App\Modules\Shared\Lib\Forms\Themes\UiKitTheme $theme
+     * @var \InvolveDigital\LaravelLivewireForms\Inputs\TextInput $field
+     * @var \InvolveDigital\LaravelLivewireForms\Themes\UiKitTheme $theme
      */
 
     $id = $field->getId() ?: $form->getDefaultIdForInput();

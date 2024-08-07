@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\Shared\Lib\Forms\Traits;
+namespace InvolveDigital\LaravelLivewireForms\Traits;
 
 trait THasLabel
 {

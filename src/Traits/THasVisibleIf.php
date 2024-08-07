@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\Shared\Lib\Forms\Traits;
+namespace InvolveDigital\LaravelLivewireForms\Traits;
 
-use App\Modules\Shared\Lib\Forms\Utils\Condition;
+use InvolveDigital\LaravelLivewireForms\Utils\Condition;
 
 trait THasVisibleIf
 {

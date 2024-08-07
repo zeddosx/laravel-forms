@@ -1,4 +1,4 @@
-@php use App\Modules\Shared\Lib\Forms\Controls\LivewireComponent;use App\Modules\Shared\Lib\Forms\Inputs\BaseField;use Illuminate\Support\Str; @endphp
+@php use InvolveDigital\LaravelLivewireForms\Controls\LivewireComponent;use InvolveDigital\LaravelLivewireForms\Inputs\BaseField;use Illuminate\Support\Str; @endphp
 <div class="uk-width">
     <form @class($theme->form) x-data="{toggleState: {}, uploadingState: {}}">
         @foreach($fields as $field)

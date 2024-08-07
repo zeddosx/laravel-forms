@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\Shared\Lib\Forms\Controls;
+namespace InvolveDigital\LaravelLivewireForms\Controls;
 
-use App\Modules\Shared\Lib\Forms\Traits\THasHtmlAttributes;
-use App\Modules\Shared\Lib\Forms\Traits\THasView;
+use InvolveDigital\LaravelLivewireForms\Traits\THasHtmlAttributes;
+use InvolveDigital\LaravelLivewireForms\Traits\THasView;
 
 class CustomHtmlElement implements IHasChildren
 {

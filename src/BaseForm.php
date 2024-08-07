@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace App\Modules\Shared\Lib\Forms;
+namespace InvolveDigital\LaravelLivewireForms;
 
-use App\Modules\Shared\Lib\Forms\Controls\IHasChildren;
-use App\Modules\Shared\Lib\Forms\Inputs\BaseField;
-use App\Modules\Shared\Lib\Forms\Inputs\FileInput;
-use App\Modules\Shared\Lib\Forms\Themes\BaseFormTheme;
-use App\Modules\Shared\Lib\Forms\Themes\UiKitTheme;
+use InvolveDigital\LaravelLivewireForms\Controls\IHasChildren;
+use InvolveDigital\LaravelLivewireForms\Inputs\BaseField;
+use InvolveDigital\LaravelLivewireForms\Inputs\FileInput;
+use InvolveDigital\LaravelLivewireForms\Themes\BaseFormTheme;
+use InvolveDigital\LaravelLivewireForms\Themes\UiKitTheme;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
 use Livewire\Component;

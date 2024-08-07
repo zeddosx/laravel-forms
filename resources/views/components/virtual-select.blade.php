@@ -1,6 +1,6 @@
 @php
     /**
-    * @var \App\Modules\Shared\Lib\Forms\Inputs\VirtualSelect $field
+    * @var \InvolveDigital\LaravelLivewireForms\Inputs\VirtualSelect $field
     */
 
     $id = $field->getId() ?: $form->getDefaultIdForInput();
