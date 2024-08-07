@@ -5,7 +5,7 @@
             @continue(!$field)
 
             @if($field instanceof BaseField)
-                @php($baseClass = $field->isRequired() ? $theme->inputGroups[$field->getThemeType()]['required'] : $theme->inputGroups[$field->getThemeType()]['notRequired'])
+                @php($baseClass = $theme->inputGroups[$field->getThemeType()][$field->isRequired() ? 'required' : 'notRequired'] ?? '')
                 <div
                         @if($field->getVisibleIf())x-show="{!! Str::replace('%toggleState%', 'toggleState', $field->getVisibleIfFormatted()) !!}" @endif
                         wire:key="{{ $field->getWireKey() ?: Str::slug($field->getModel()) }}"
@@ -17,7 +17,7 @@
                 <div>
                     @livewire($field->getName(), ['myWireKey' => $field->getWireKey()] + $field->getParams(), key($field->getWireKey()))
                 </div>
-            @else
+            @elseif(method_exists($field, 'getView'))
                 @include($field->getView(), ['field' => $field])
             @endif
         @endforeach
