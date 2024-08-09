@@ -15,7 +15,8 @@
     },
     {
       "name": "Involve Digital s.r.o.",
-      "email": "info@involve.cz"
+      "email": "info@involve.cz",
+      "homepage": "https://www.involve.cz/"
     }
   ],
   "minimum-stability": "stable",
