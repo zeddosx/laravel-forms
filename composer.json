@@ -1,6 +1,6 @@
 {
-  "name": "involve-digital/laravel-livewire-forms",
-  "description": "Simple livewire form builder",
+  "name": "involve-digital/laravel-forms",
+  "description": "Simple laravel/livewire form builder",
   "type": "library",
   "license": "MIT",
   "autoload": {
