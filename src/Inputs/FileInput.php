@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace InvolveDigital\LaravelLivewireForms\Inputs;
+namespace InvolveDigital\LaravelForms\Inputs;
 
-use InvolveDigital\LaravelLivewireForms\Traits\THasLabel;
-use InvolveDigital\LaravelLivewireForms\Traits\THasTooltip;
-use InvolveDigital\LaravelLivewireForms\Traits\THasType;
+use InvolveDigital\LaravelForms\Traits\THasLabel;
+use InvolveDigital\LaravelForms\Traits\THasTooltip;
+use InvolveDigital\LaravelForms\Traits\THasType;
 
 class FileInput extends BaseField
 {

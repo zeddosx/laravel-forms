@@ -5,7 +5,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "InvolveDigital\\LaravelLivewireForms\\": "src/"
+      "InvolveDigital\\LaravelForms\\": "src/"
     }
   },
   "authors": [
@@ -28,7 +28,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "InvolveDigital\\LaravelLivewireForms\\LaravelLivewireFormsProvider"
+        "InvolveDigital\\LaravelForms\\LaravelFormsProvider"
       ]
     }
   }

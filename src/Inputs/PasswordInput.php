@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace InvolveDigital\LaravelLivewireForms\Inputs;
+namespace InvolveDigital\LaravelForms\Inputs;
 
 class PasswordInput extends TextInput
 {

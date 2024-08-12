@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace InvolveDigital\LaravelLivewireForms;
+namespace InvolveDigital\LaravelForms;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelLivewireFormsProvider extends ServiceProvider
+class LaravelFormsProvider extends ServiceProvider
 {
 
     public function boot(): void

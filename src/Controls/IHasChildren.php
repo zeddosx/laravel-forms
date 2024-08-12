@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace InvolveDigital\LaravelLivewireForms\Controls;
+namespace InvolveDigital\LaravelForms\Controls;
 
 interface IHasChildren
 {

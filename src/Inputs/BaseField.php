@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace InvolveDigital\LaravelLivewireForms\Inputs;
+namespace InvolveDigital\LaravelForms\Inputs;
 
-use InvolveDigital\LaravelLivewireForms\Traits\THasHtmlAttributes;
-use InvolveDigital\LaravelLivewireForms\Traits\THasLabelHtmlAttributes;
-use InvolveDigital\LaravelLivewireForms\Traits\THasView;
-use InvolveDigital\LaravelLivewireForms\Traits\THasVisibleIf;
-use InvolveDigital\LaravelLivewireForms\Traits\THasWireOptions;
-use InvolveDigital\LaravelLivewireForms\Traits\THasWrapperHtmlAttributes;
+use InvolveDigital\LaravelForms\Traits\THasHtmlAttributes;
+use InvolveDigital\LaravelForms\Traits\THasLabelHtmlAttributes;
+use InvolveDigital\LaravelForms\Traits\THasView;
+use InvolveDigital\LaravelForms\Traits\THasVisibleIf;
+use InvolveDigital\LaravelForms\Traits\THasWireOptions;
+use InvolveDigital\LaravelForms\Traits\THasWrapperHtmlAttributes;
 use Illuminate\Support\Facades\Validator;
 
 abstract class BaseField

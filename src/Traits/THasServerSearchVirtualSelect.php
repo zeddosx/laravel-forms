@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace InvolveDigital\LaravelLivewireForms\Traits;
+namespace InvolveDigital\LaravelForms\Traits;
 
-use InvolveDigital\LaravelLivewireForms\Inputs\VirtualSelect;
+use InvolveDigital\LaravelForms\Inputs\VirtualSelect;
 use ReflectionMethod;
 
 trait THasServerSearchVirtualSelect

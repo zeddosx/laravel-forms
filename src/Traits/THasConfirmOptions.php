@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace InvolveDigital\LaravelLivewireForms\Traits;
+namespace InvolveDigital\LaravelForms\Traits;
 
 trait THasConfirmOptions
 {

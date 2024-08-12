@@ -1,5 +1,5 @@
 @php
-    /** @var \InvolveDigital\LaravelLivewireForms\Inputs\Select $field */
+    /** @var \InvolveDigital\LaravelForms\Inputs\Select $field */
 
     $id = $field->getId() ?: $form->getDefaultIdForInput($field);
 @endphp
