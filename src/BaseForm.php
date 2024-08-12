@@ -194,13 +194,13 @@ abstract class BaseForm extends Component
 
                 if (null === $firstPart && null === $secondPart) {
                     $model = $field->getModel();
-                } elseif (is_numeric($secondPart) || str_starts_with($secondPart, 'new-')) {
+                } elseif (!$secondPart || is_numeric($secondPart) || str_starts_with($secondPart, 'new-')) {
                     $model = Str::singular($firstPart);
                 } else {
                     $model = $secondPart;
                 }
 
-                if (is_numeric($model) && !str_starts_with($model, 'new-')) {
+                if (!is_numeric($model) && !str_starts_with($model, 'new-')) {
                     $attributes[$originalModel] = __('validation.attributes.' . $model);
                 }
             } elseif ($field instanceof IHasChildren) {
