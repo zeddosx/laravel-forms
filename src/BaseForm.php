@@ -18,7 +18,6 @@ abstract class BaseForm extends Component
 
     protected bool $isLivewire = true;
 
-    /** @return BaseField[] */
     abstract protected function getFields(): array;
 
     abstract protected function getButtons(): array;
