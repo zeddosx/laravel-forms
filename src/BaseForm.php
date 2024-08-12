@@ -222,4 +222,13 @@ abstract class BaseForm extends Component
         }
     }
 
+    protected function flashMessage(string $message, string $type = 'success'): void
+    {
+        if (function_exists('flashMessage')) {
+            flashMessage($message, $type); // for redirect
+        }
+
+        $this->dispatch('flashMessage', message: __($message), type: $type);
+    }
+
 }
