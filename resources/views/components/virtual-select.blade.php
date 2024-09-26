@@ -135,6 +135,28 @@
     </script>
 @endif
 
+<script>
+  document.addEventListener('livewire:initialized', function () {
+      @this.on('resetVirtualSelect:{{ $field->getModel() }}', function (options) {
+      const select = document.getElementById('{!! $id !!}');
+
+      if (select && select.virtualSelect) {
+        if (options) {
+          const newOptions = Object.entries(options[0])
+            .map(([key, value]) => ({
+              value: key,
+              label: value
+            }));
+
+          select.virtualSelect.setServerOptions(newOptions);
+        }
+
+        select.virtualSelect.reset();
+      }
+    });
+  });
+</script>
+
 @error($form->formatModelName($field))
 <span class="{{ $theme->inputErrorMessage }}">{{ $message }}</span>
 {!! $theme->getInputError($message) !!}
