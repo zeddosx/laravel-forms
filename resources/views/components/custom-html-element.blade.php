@@ -5,7 +5,9 @@
 >
     @lang($field->getTitle())
 
-    @if($field->getChildren())
+    @if($field->getHtml())
+        {!! $field->getHtml() !!}
+    @elseif($field->getChildren())
         @foreach($field->getChildren() as $child)
             @continue(!$child)
 
