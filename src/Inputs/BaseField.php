@@ -54,6 +54,15 @@ abstract class BaseField
         return $this;
     }
 
+    public function setDisabled(bool $isDisabled = true): static
+    {
+        if ($isDisabled) {
+            $this->setHtmlAttribute('disabled', 'disabled');
+        }
+
+        return $this;
+    }
+
     //////////////////////////////////////////////////////// Getters / Setters
 
     public function getId(): ?string
