@@ -6,6 +6,7 @@ namespace InvolveDigital\LaravelForms\Controls;
 
 use InvolveDigital\LaravelForms\Traits\THasHtmlAttributes;
 use InvolveDigital\LaravelForms\Traits\THasView;
+use InvolveDigital\LaravelForms\Traits\THasVisibleIf;
 use InvolveDigital\LaravelForms\Traits\THasWireOptions;
 
 class Button
@@ -14,6 +15,7 @@ class Button
     use THasHtmlAttributes;
     use THasView;
     use THasWireOptions;
+    use THasVisibleIf;
 
     protected string $title;
 
